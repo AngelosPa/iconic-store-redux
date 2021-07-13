@@ -36,8 +36,66 @@ nav li {
   list-style: none;
   color: white;
   &:hover {
-    background-color: gray;
-    color: orange;
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 88, 34);
+  }
+}
+.product-list {
+  width: 90vw;
+  height: 70%;
+}
+.slider-section {
+  border: 3px rgb(0, 0, 0) solid;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  width: 90vw;
+  height: auto;
+  flex: 1;
+  .slider-pictures-section {
+    .previous {
+      button {
+        display: none;
+      }
+
+      img {
+        opacity: 90%;
+      }
+      opacity: 90%;
+      transform: skew(-10deg, -10deg) scale(0.7) rotate(-10deg);
+    }
+
+    .next {
+      opacity: 90%;
+      margin: 0;
+      img {
+        opacity: 90%;
+      }
+      button {
+        display: none;
+      }
+      transform: skew(10deg, 10deg) scale(0.7) rotate(10deg);
+    }
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  img {
+    width: 40%;
+  }
+
+  .btn-for-slider {
+    font-size: 3rem;
+    border-radius: 100%;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: transparent;
+  }
+  button:disabled {
+    display: none;
   }
 }
 .product {
@@ -46,8 +104,7 @@ nav li {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  width: 80vw;
-  height: auto;
+  width: 90vw;
 }
 .product li {
   list-style: none;
