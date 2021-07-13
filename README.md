@@ -107,35 +107,6 @@ You need to make sure you machine has NPM installed and up to date.
    npm start
    ```
 
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-<p align="center">
-    <img src="./public/images/welcome-page.png" alt="Logo" width="214" height="336" border="2px" align="center">
-
-<h2 align="center">Wecome page</h2>
-First you be will be greated by our welcome page: After carefull reading the instructions you can log into the application and start using it 😀 </p>
-<hr>
-<p align="center">
-    <img src="./public/images/cards-page.png" alt="Logo" width="214" height="336">
-
-<h2 align="center">Cards page</h2>
-This is where you will find information about other users and potential dates. We hope that you enjoy the swipe gestures, the overall design and layout of this page. Happy dating 🔥  </p>
-<hr>
-<p align="center">
-    <img src="./public/images/chat-page.png" alt="Logo" width="214" height="336" border="2px">
-
-  <img src="./public/images/messages-page.png" alt="Logo" width="214" height="336" border="2px">
-<h2 align="center">Chat and messages page</h2>
-After selecting people that you might have insterest in further interacting with this pages will have find more about each other and discover if you are a match. Be always polite and have fun talking to your crushes 😉 </p>
-<hr>
-<p align="center">
-    <img src="./public/images/user-profile-page.png" alt="Logo" width="214" height="336" border="1px">
-
-<h2 align="center">User profile page</h2>
-In this page you will share information about yourself and make sure people can have a glimpse of how awesome you are 😎  </p>
-
 <!-- ROADMAP -->
 
 ## Roadmap
