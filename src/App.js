@@ -12,6 +12,7 @@ const App = () => {
     <Router>
       <Menu />
       <h1>Iconic-online-store</h1>
+
       <Switch>
         <Route path={process.env.PUBLIC_URL + "/"} exact component={Home} />
         <Route path="/about" exact component={About} />
