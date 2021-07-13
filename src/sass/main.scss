@@ -59,10 +59,6 @@ nav li {
         display: none;
       }
 
-      img {
-        opacity: 90%;
-      }
-      opacity: 90%;
       transform: skew(-10deg, -10deg) scale(0.7) rotate(-10deg);
     }
     .middle {
@@ -72,11 +68,8 @@ nav li {
       }
     }
     .next {
-      opacity: 90%;
       margin: 0;
-      img {
-        opacity: 90%;
-      }
+
       button {
         display: none;
       }
