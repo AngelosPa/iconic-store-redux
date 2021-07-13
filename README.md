@@ -9,7 +9,7 @@
 <br />
 <p align="center">
   <a href="https://angelospa.github.io/iconic-store-redux/">
-    <img src="./public/images/logo.png" alt="Logo" width="214" height="336">
+    <img src="./public/images/iconic-store.png" alt="Logo" width="214" height="336">
   </a>
 
   <h2 align="center">ONLINE-SHOP-GAllERY</h2>
