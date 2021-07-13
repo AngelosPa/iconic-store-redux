@@ -5,7 +5,7 @@
     <img src="./public/images/iconic-store.png" alt="Logo" width="336" height="336">
   </a>
 
-  <h2 align="center">ONLINE-SHOP-GAllERY</h2>
+  <h2 align="center">ONLINE-SHOP-GALLERY</h2>
 
   <p align="center">
     I created this imaginary e-commerce website as an example of Redux state container
