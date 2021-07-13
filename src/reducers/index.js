@@ -1,7 +1,10 @@
+//2.define the function to handle this actions by using switch(action.type) on "reducers" folder
+
 import allProductsJson from "../data.json";
 const allReducers = (state = {}, action) => {
   const { cart, products } = state;
   const { product } = action;
+  // an empty {} to secure our app
   const { id, productName, price } = product || {};
   let quantity, inventory, newCart;
 
@@ -10,7 +13,7 @@ const allReducers = (state = {}, action) => {
       quantity = cart[id] ? cart[id].quantity : 0;
       inventory =
         product.inventory > 0 ? product.inventory - 1 : product.inventory;
-      //not ready yet
+      // we need a shallow copy, then add+ to the bag and remove from the inventory
       return {
         ...state,
         products: {

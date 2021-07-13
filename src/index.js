@@ -1,3 +1,5 @@
+//3.create the store in your src/index.js
+
 import React from "react";
 import ReactDOM from "react-dom";
 import "./sass/main.scss";
@@ -17,6 +19,7 @@ const store = createStore(
     products: products,
     cart: {},
   },
+  // this action is for the devtools redux extension-to see what we do- is optional
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 // step 5
