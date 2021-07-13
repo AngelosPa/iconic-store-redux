@@ -65,7 +65,12 @@ nav li {
       opacity: 90%;
       transform: skew(-10deg, -10deg) scale(0.7) rotate(-10deg);
     }
-
+    .middle {
+      button {
+        background-color: transparent;
+        color: black;
+      }
+    }
     .next {
       opacity: 90%;
       margin: 0;
