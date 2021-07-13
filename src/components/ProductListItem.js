@@ -13,10 +13,12 @@ const ProductListItem = (props) => {
           <h4>{item.productName}</h4> €{item.price}
         </Link>
         <h5>
-          {item.inventory > 0 ? `x ${item.inventory} items left` : "sold out"}
+          {item.inventory > 0
+            ? `x ${item.inventory} prints available`
+            : "sold out"}
         </h5>
       </span>
-      <i>{item.icon}</i>
+      <img src={`${item.icon}/${Math.floor(Math.random() * 1000)}`} />
       <div>
         <button
           onClick={() => addProduct(item)}

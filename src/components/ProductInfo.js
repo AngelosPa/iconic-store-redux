@@ -7,10 +7,9 @@ const ProductInfo = (props) => {
   const product = store.products[id];
   console.log(product);
   return (
-    <div>
-      <h2>
-        {product.productName} <i>{product.icon}</i>
-      </h2>
+    <div className="product-info">
+      <h2>{product.productName}</h2>
+      <img src={`${product.icon}`} />
       <h4>{product.price}€</h4>
       <Link to="/product">Back</Link>
     </div>
