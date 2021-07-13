@@ -80,8 +80,12 @@ button {
   border: none;
   color: white;
 }
+button:disabled {
+  background-color: gray;
+}
 h5 {
-  color: lightseagreen;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
 }
 i {
   font-size: 3rem;
