@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/iconic-store-redux/static/css/main.5fdb4141.chunk.css",
+    "main.css": "/iconic-store-redux/static/css/main.4b320d49.chunk.css",
     "main.js": "/iconic-store-redux/static/js/main.5642cf0e.chunk.js",
     "main.js.map": "/iconic-store-redux/static/js/main.5642cf0e.chunk.js.map",
     "runtime-main.js": "/iconic-store-redux/static/js/runtime-main.a7d76d70.js",
@@ -8,13 +8,13 @@
     "static/js/2.8d4ba22c.chunk.js": "/iconic-store-redux/static/js/2.8d4ba22c.chunk.js",
     "static/js/2.8d4ba22c.chunk.js.map": "/iconic-store-redux/static/js/2.8d4ba22c.chunk.js.map",
     "index.html": "/iconic-store-redux/index.html",
-    "static/css/main.5fdb4141.chunk.css.map": "/iconic-store-redux/static/css/main.5fdb4141.chunk.css.map",
+    "static/css/main.4b320d49.chunk.css.map": "/iconic-store-redux/static/css/main.4b320d49.chunk.css.map",
     "static/js/2.8d4ba22c.chunk.js.LICENSE.txt": "/iconic-store-redux/static/js/2.8d4ba22c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a7d76d70.js",
     "static/js/2.8d4ba22c.chunk.js",
-    "static/css/main.5fdb4141.chunk.css",
+    "static/css/main.4b320d49.chunk.css",
     "static/js/main.5642cf0e.chunk.js"
   ]
 }
