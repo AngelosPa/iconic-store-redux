@@ -21,7 +21,7 @@ const ProductList = (props) => {
         <button
           className="btn-for-slider"
           onClick={() => setVal(val + 1)}
-          disabled={items.length - 1 == val}
+          disabled={items.length - 3 == val}
         >
           ⬅
         </button>
