@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/iconic-store-redux/static/css/main.5fdb4141.chunk.css",
+    "main.js": "/iconic-store-redux/static/js/main.92b70ae8.chunk.js",
+    "main.js.map": "/iconic-store-redux/static/js/main.92b70ae8.chunk.js.map",
+    "runtime-main.js": "/iconic-store-redux/static/js/runtime-main.a7d76d70.js",
+    "runtime-main.js.map": "/iconic-store-redux/static/js/runtime-main.a7d76d70.js.map",
+    "static/js/2.8d4ba22c.chunk.js": "/iconic-store-redux/static/js/2.8d4ba22c.chunk.js",
+    "static/js/2.8d4ba22c.chunk.js.map": "/iconic-store-redux/static/js/2.8d4ba22c.chunk.js.map",
+    "index.html": "/iconic-store-redux/index.html",
+    "static/css/main.5fdb4141.chunk.css.map": "/iconic-store-redux/static/css/main.5fdb4141.chunk.css.map",
+    "static/js/2.8d4ba22c.chunk.js.LICENSE.txt": "/iconic-store-redux/static/js/2.8d4ba22c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7d76d70.js",
+    "static/js/2.8d4ba22c.chunk.js",
+    "static/css/main.5fdb4141.chunk.css",
+    "static/js/main.92b70ae8.chunk.js"
+  ]
+}
