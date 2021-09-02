@@ -1,3 +1,5 @@
+//4. go to the component that needs to access the store and import
+
 import React from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
@@ -15,8 +17,9 @@ const ProductInfo = (props) => {
     </div>
   );
 };
-
+//4.1. then send the state
 const mapStoreToProps = (store) => ({
   store,
 });
+  //           5. dont forget to export
 export default connect(mapStoreToProps)(ProductInfo);
