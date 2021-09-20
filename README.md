@@ -92,7 +92,8 @@ You need to make sure you machine has NPM installed and up to date.
    3.1 npm install node-sass
    3.2 npm install react-router-dom
    3.3 npm install npm i react-redux
-
+   3.4 npm install react-bootstrap bootstrap
+   3.5 npm install faker
    ```
 
 4. Run the application
