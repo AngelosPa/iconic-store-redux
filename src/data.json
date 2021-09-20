@@ -26,26 +26,5 @@
     "icon": "https://source.unsplash.com/450x800/?painting/",
     "price": 40,
     "inventory": 0
-  },
-  {
-    "id": 4,
-    "productName": "ARTWORK NO-5",
-    "icon": "https://source.unsplash.com/450x800/?painting/",
-    "price": 7,
-    "inventory": 6
-  },
-  {
-    "id": 5,
-    "productName": "ARTWORK NO-6",
-    "icon": "https://source.unsplash.com/450x800/?painting/",
-    "price": 10,
-    "inventory": 0
-  },
-  {
-    "id": 6,
-    "productName": "ARTWORK NO-7",
-    "icon": "https://source.unsplash.com/450x800/?painting/",
-    "price": 33,
-    "inventory": 3
   }
 ]
