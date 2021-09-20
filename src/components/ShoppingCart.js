@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { connect } from "react-redux";
 import { checkout } from "../actions";
-
+import { Button } from "react-bootstrap";
 import ShoppingCartItem from "./ShoppingCartItem";
 
 const ShoppingCart = (props) => {
@@ -17,7 +17,20 @@ const ShoppingCart = (props) => {
         {items.reduce((sum, item) => sum + item.price * item.quantity, 0)}
       </p>
       <div>
-        <button onClick={checkout}>Checkout</button>
+        <>
+          <style type="text/css">
+            {`
+.btn-xxl {
+padding: 1rem 1.5rem;
+font-size: 1.5rem;
+}
+`}{" "}
+          </style>
+          ;
+          <Button variant="dark" size="xxl" onClick={checkout}>
+            Checkout
+          </Button>
+        </>
       </div>
     </Fragment>
   );

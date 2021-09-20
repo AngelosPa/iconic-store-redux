@@ -2,28 +2,31 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ProductList from "./components/ProductList";
 import ProductInfo from "./components/ProductInfo";
+import Productview from "./components/Productview";
 import Menu from "./components/Menu";
-import About from "./components/About";
-import Home from "./components/Home";
+import "bootstrap/dist/css/bootstrap.min.css";
 import ShoppingCart from "./components/ShoppingCart";
-
+import "./sass/main.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Container, Row, Col } from "react-bootstrap";
 const App = () => {
   return (
     <Router>
       <Menu />
-      <div className="home">
-        <h1>Iconic-online-store </h1>
-        <h3>Feel free to view my products</h3>
-      </div>
+
       <Switch>
-        <Route path={process.env.PUBLIC_URL + "/"} exact component={Home} />
-        <Route path="/about" exact component={About} />
-        <Route path="/product" exact component={ProductList} />
-        <Route
-          path="/product/:id"
-          component={({ match }) => <ProductInfo id={match.params.id} />}
-        />
-        <Route path="/cart" exact component={ShoppingCart} />
+        <Container>
+          <Row>
+            <Col>
+              <Route path="/" exact component={ProductList} />
+              <Route
+                path="/product/:id"
+                component={({ match }) => <Productview id={match.params.id} />}
+              />
+              <Route path="/cart" exact component={ShoppingCart} />
+            </Col>
+          </Row>
+        </Container>
       </Switch>
     </Router>
   );

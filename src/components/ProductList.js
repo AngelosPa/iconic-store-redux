@@ -1,48 +1,30 @@
 import React from "react";
-import { useState } from "react";
+import faker from "faker";
+
 import { connect } from "react-redux";
-
-import ProductListItem from "./ProductListItem";
-
+import Slider from "./Slider";
+import { Container, Row, Col } from "react-bootstrap";
+import Productinfo from "./ProductInfo";
 const ProductList = (props) => {
   const { items } = props;
-  // console.log(items);
-  const [val, setVal] = useState(0);
-  const allItems = items.map((item) => (
-    <ProductListItem item={item} key={item.id} />
-  ));
-  const sliderItems = items.map((item) => (
-    <ProductListItem item={item} key={item.id} />
-  ));
-  console.log();
+
   return (
-    <div className="product-list">
-      <div className="slider-section">
-        <button
-          className="btn-for-slider"
-          onClick={() => setVal(val + 1)}
-          disabled={items.length - 3 == val}
-        >
-          ⬅
-        </button>
-        <div className="slider-pictures-section">
-          <div className="previous">{sliderItems[val]} </div>
-          <div className="middle"> {sliderItems[val + 1]}</div>
-          <div className="next"> {sliderItems[val + 2]}</div>
-        </div>
-        <button
-          className="btn-for-slider"
-          onClick={() => setVal(val - 1)}
-          disabled={val == 0}
-        >
-          ➡
-        </button>
-      </div>
-      <ul className="product">{allItems}</ul>
-    </div>
+    <Container>
+      <Row>
+        <Col>
+          <Slider items={items} />
+        </Col>
+      </Row>
+      <Row>
+        {items.map((item) => (
+          <Col>
+            <Productinfo item={item} />
+          </Col>
+        ))}
+      </Row>
+    </Container>
   );
 };
-
 const mapStoreToProps = (store) => ({
   items: Object.values(store.products),
 });
